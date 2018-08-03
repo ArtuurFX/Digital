@@ -25,5 +25,8 @@
 		<input type="submit" value="Enviar">
 	</form>
 	
+	${msg}
+	${nome}
+	
 </body>
 </html>

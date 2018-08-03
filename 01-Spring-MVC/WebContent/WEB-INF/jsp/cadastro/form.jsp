@@ -23,7 +23,8 @@
 			<label for="idAutomatico">Automatico</label>
 		</div>
 		<div>
-			<select name="marca">
+			<label for="id-marca">Marca</label>
+			<select id="id-marca" name="marca">
 				<option value="ford" selected="ford">Ford</option>
 				<option value="fiat" >Fiat</option>
 				<option value="tesla" >Tesla</option>
@@ -32,5 +33,11 @@
 		<input type="submit" value="Ok">
 	</form>
 
+	${msg}</br>
+	${carro.placa}</br>
+	${carro.preco}</br>
+	${carro.automatico}</br>
+	${carro.marca}
+	
 </body>
 </html>
